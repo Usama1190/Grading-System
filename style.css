@@ -1,0 +1,111 @@
+:root 
+{
+    --color-1: #2c58a5;
+    --color-2: #1a0dbb;
+    --color-3: #dfe7f6;
+    --color-4: #4f4f4f;
+}
+
+
+body 
+{
+    background-color: var(--color-1);
+    font-family: 'outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.main-con
+{
+    /* background-color: var(--color-2); */
+    background-color: var(--color-3);
+    width: 460px;
+    height: 725px;
+    /* border: 2px solid var(--color-1); */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-con .con 
+{
+    color: var(--color-1);
+    /* background-color: var(--color-1); */
+    /* background-color: var(--color-1); */
+    width: 90%;
+    height: 90%;
+    border: 2px solid var(--color-1);
+    margin: auto;
+    border-radius: 8px;
+}
+
+.main-con .con h1 
+{
+    text-align: center;
+}
+
+.main-con .con .input-field 
+{
+    text-align: center;
+}
+
+.main-con .con .input-field #html
+{
+    border: none;
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.main-con .con .input-field #html:focus
+{
+    outline: none;
+}
+
+.main-con .con .input-field #css
+{
+    border: none;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.main-con .con .input-field #css:focus
+{
+    outline: none;
+}
+
+.main-con .con .input-field #btn
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-con .con .screen
+{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    margin-top: 300px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.main-con .con #para-note
+{
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--color-1);
+}

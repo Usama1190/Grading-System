@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- MAIN-CON START -->
+    <div class="main-con">
+        <div class="con">
+            <h1>Grading System</h1>
+            <hr style="width: 80%;">
+
+            <!-- INPUT-FIELD START -->
+            <div class="input-field">
+                <h2>Module: 01</h2>
+                <h3>HTML AND CSS QUIZES</h3>
+            
+                <label for="html">
+                    <input type="number" id="html" placeholder="Enter your html score" required>
+                </label>
+
+                <label for="css">
+                    <input type="number" id="css" placeholder="Enter your css score" required>
+                </label>
+
+                <button type="button" id="btn" onclick="myFunction()">Check</button>
+            </div>
+            <!-- INPUT-FIELD END -->
+
+            <hr style="width: 80%; margin: auto; margin-top: 20px;">
+            <div class="screen" id="show">Showing Result...
+                <!-- <div class="screen-para-1">Congratulation! you are Eligible for Module 02</div>
+                <div class="screen-para-2">Ooops! you are Repeat Module 01</div> -->
+            </div>
+            <p id="para-note"><strong>Note: </strong>Score will be greater than 70, then eligible for Module 02 (JavaScript), @designbyuSama1190.</p>
+        </div>
+    </div>
+    <!-- MAIN-CON END -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
